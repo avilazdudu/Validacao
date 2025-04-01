@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:darksalmon;
+    padding-top: 2rem;
+}
+.aluno {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.aprovado {
+    color: green;
+}
+#numero{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 0;
+    width: 63%;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.reprovado {
+    color: red;
+}
